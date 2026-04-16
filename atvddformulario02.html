@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra-se</title>
+    <link rel="icon" href="pngicon.png" type="image/png">
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>CADASTRA-SE</legend><br><br>
+        <label for="nome">Nome Completo: </label>
+        <input type="name" name="nome"><br>
+        <label for="nome">Email: </label>
+        <input type="email" name="email"><br>
+        <label for="nome">Telefone: </label>
+        <input type="tel" name="fone">
+
+        <br><br>
+
+        <legend>Sexo: </legend>
+        <input type="radio" name="select" id="Masculino" value="Masculino">
+        <label for="select">Masculino</label><br>
+        <input type="radio" name="select" id="Feminino" value="Feminino">
+        <label for="select">Feminino</label><br>
+        <input type="radio" name="select" id="Outros" value="Outros">
+        <label for="select">Outros</label>
+        
+        <br><br>
+
+        <label for="data">Data De Nascimento: </label>
+        <input type="date" name="data" id="data">
+
+        <br><br>
+
+        <label for="cidade">Cidade: </label>
+        <input type="text" name="cidade"><br>
+        <label for="estado">Estado: </label>
+        <input type="text" name="estado"><br>
+        <label for="endereco">Endereço: </label>
+        <input type="text" name="endereco"><br>
+    </fieldset>
+    <br>
+    <label for="enviar">Ações: </label>
+    <input type="submit" name="enviar" id="enviar" value="Enviar">
+    <input type="reset" name="reset" id="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="pngicon.png" type="image/png">
+</head>
+<body>
+    <form>
+    <h1>Formulário</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" placeholder="Insira seu Nome:"><br>
+        <label for="endereco">Endereço: </label>
+        <input type="text" name="endereco" placeholder="Insira seu Endereço: "><br>
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade" placeholder="Insira sua Cidade: "><br>
+        <label for="estados">Estado: </label>
+        <select name="estados" id="estados">
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <input type="radio" name="select" id="Gerência" value="Gerência">
+        <label for="select">Gerência</label>
+        <input type="radio" name="select" id="Financeiro" value="Financeiro">
+        <label for="select">Financeiro</label>
+        <input type="radio" name="select" id="Recepção" value="Recepção">
+        <label for="select">Recepção</label>
+        <input type="radio" name="select" id="Administrativo" value="Administrativo">
+        <label for="select">Administrativo</label>
+        <input type="radio" name="select" id="Jurídico" value="Jurídico">
+        <label for="select">Jurídico</label>
+        
+        <br><br>
+
+        <legend>Área de Interesse</legend>
+        <input type="checkbox" name="Computação" id="Computação">
+        <label for="Computação">Computação</label>
+        <input type="checkbox" name="Biologia" id="Biologia">
+        <label for="Biologia">Biologia</label>
+        <input type="checkbox" name="Meio Ambiente" id="Meio Ambiente">
+        <label for="Computação">Meio Ambiente</label>
+        <input type="checkbox" name="Engenharia" id="Engenharia">
+        <label for="Computação">Engenharia</label>
+        <input type="checkbox" name="História" id="História">
+        <label for="Computação">História</label>
+
+        <br><br>
+
+        <label for="mensagem">Mini-currículo: </label>
+        <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+    </fieldset><br>
+    
+    <label for="enviar">Ações: </label>
+    <input type="submit" name="enviar" id="enviar" value="Enviar">
+    <input type="reset" name="reset" id="reset" value="Limpar">
+    </form>
+    
+</body>
+</html>
